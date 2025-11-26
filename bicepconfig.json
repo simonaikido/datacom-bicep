@@ -1,0 +1,28 @@
+{
+  // See https://aka.ms/bicep/config for more information on Bicep configuration options
+  // Press CTRL+SPACE at any location to see Intellisense suggestions
+  "analyzers": {
+    "enabled": true,
+    "rules": {
+      "no-hardcoded-env-urls": {
+        "level": "warning"
+      },
+      "secure-parameter-default": {
+        "level": "warning"
+      }
+    }
+  },
+  "format": {
+    "indentKind": "space",
+    "indentSize": 2,
+    "newlineKind": "lf"
+  },
+  "moduleAliases": {
+    "br": {
+      "public": {
+        "registry": "mcr.microsoft.com",
+        "modulePath": "bicep/modules"
+      }
+    }
+  }
+}
